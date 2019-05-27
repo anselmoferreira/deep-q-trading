@@ -26,15 +26,15 @@ from rl.agents.dqn import DQNAgent
 from rl.memory import SequentialMemory
 from rl.policy import EpsGreedyQPolicy
 
-#Telegram library used to send feedback about the code being running
+#Telegram library used to send feedback about the script being runned
 import telegram
 
 #Library used for showing the exception in the case of error 
 import sys
 
 #Data regarding the bot and destination used for messages
-telegramToken='595473341:AAF4AWKpxwNIMDDQ7XrvI0-nPT2d_UY3aoQ'
-telegramChatID='843683126'
+telegramToken=''
+telegramChatID=''
 
 #Declare Telegram bot to be used
 bot = telegram.Bot(token=telegramToken)
